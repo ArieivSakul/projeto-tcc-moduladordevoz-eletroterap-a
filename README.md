@@ -16,10 +16,11 @@ Com o osciloscópio conectado ao Pino 11 (Gate do MOSFET), confirmou-se a geraç
 
 ![Validação do Sinal PWM no Osciloscópio](assets/sinal-pwm.bmp)
 
-### Eficácia do Reconhecimento de Voz (TSPT vs. TFT)
+### Eficácia do Reconhecimento de Voz
 Os testes quantitativos demonstraram que comandos foneticamente mais longos e polissílabos, como "DIMINUIR" (65% de sucesso na primeira tentativa), possuem desempenho significativamente superior a comandos curtos e dissílabos, como "LIGAR" (10% de sucesso):
-
-![Gráfico de Taxa de Sucesso e Falha por Comando](assets/grafico-desempenho.png)
+![Gráfico de Taxa de Sucesso e Falha por Comando](assets/grafico-taxa-sucesso.png)
+![Gráfico de Média de Repetições por Comando](assets/grafico-media-repeticoes.png)
+![Gráfico de Taxa de Tempo Médio por Comando](assets/grafico-desempenho.png)
 
 *   **Taxa de Sucesso na 1ª Tentativa (TSPT) Geral:** 32,1%
 *   **Média de Repetições até o Sucesso (MRRS) Geral:** 1,43 repetições
