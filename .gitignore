@@ -1,3 +1,8 @@
+gitignore_content = """# Arquivos gerados pela IDE do Arduino
+/build/
+/bin/
+*.local.properties
+
 # Prerequisites
 *.d
 
